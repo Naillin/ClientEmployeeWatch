@@ -1,0 +1,66 @@
+## Игнорировать общие временные файлы и папки ##
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.ncrunchsolution
+*.vspscc
+*.vssscc
+
+## Папки сборки ##
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/ # Исключить пакеты NuGet (восстанавливаются автоматически)
+x64/
+x86/
+build/
+bld/
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+out/
+artifacts/
+
+## Служебные файлы IDE ##
+.vs/
+.vscode/
+_ReSharper.Caches/
+*.rsuser
+*.sln.iml
+*.ide/
+
+## Файлы NuGet ##
+# Исключить файл блокировки (нужен для PackageReference)
+!packages.lock.json
+# Исключить файлы конфигурации NuGet (нужны для восстановления)
+!nuget.config
+
+## Другое ##
+*.log
+*.dotCover
+*.pidb
+*.ilk
+*.msi
+*.pdb
+*.errorlog
+appsettings.json # Если используете шаблоны конфигов (например, appsettings.Development.json)
+!appsettings*.json # Раскомментировать, если нужно сохранить базовые конфиги
+TestResults/
+[Tt]est[Rr]esult*
+*.opensdf
+*.sdf
+*.sqlite3
+
+## Python ##
+.venv/
+.log
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
